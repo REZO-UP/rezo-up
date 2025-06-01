@@ -26,7 +26,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#8B5CF6',
+					DEFAULT: '#960dc4',
 					foreground: 'white'
 				},
 				secondary: {
@@ -64,10 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				rezo: {
-					purple: '#8B5CF6',
-					'purple-dark': '#7C3AED',
-					'purple-light': '#A855F7',
-					black: '#1F2937'
+					purple: '#960dc4',
+					'purple-dark': '#7A0A9E',
+					'purple-light': '#B21FE8',
+					black: '#000000'
 				}
 			},
 			borderRadius: {
