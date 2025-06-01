@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import LogoArrow from '@/components/LogoArrow';
 import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
@@ -46,7 +47,7 @@ const Contact = () => {
       <section className="py-20 bg-gradient-to-br from-rezo-purple via-rezo-purple-light to-rezo-purple-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            📞 Contacte-nous
+            Contacte-nous
           </h1>
           <p className="text-xl">
             Tu veux en savoir plus ou nous poser une question ?
@@ -160,10 +161,11 @@ const Contact = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple"
+                    className="w-full bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple flex items-center justify-center"
                     disabled={isLoading}
                   >
-                    {isLoading ? "Envoi en cours..." : "📤 Envoyer"}
+                    <LogoArrow className="mr-2" size={16} />
+                    {isLoading ? "Envoi en cours..." : "Envoyer"}
                   </Button>
                 </form>
               </CardContent>

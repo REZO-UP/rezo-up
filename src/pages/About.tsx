@@ -2,6 +2,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
+import LogoArrow from '@/components/LogoArrow';
 import { useNavigate } from 'react-router-dom';
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-rezo-purple via-rezo-purple-light to-rezo-purple-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            🤝 Derrière REZO UP, une mission claire
+            Derrière REZO UP, une mission claire
           </h1>
           <p className="text-xl md:text-2xl mb-8">
             Structurer & connecter les entrepreneurs marocains
@@ -78,10 +79,11 @@ const About = () => {
             <div className="text-center mt-12">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple text-lg px-8 py-4 h-auto"
+                className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple text-lg px-8 py-4 h-auto flex items-center"
                 onClick={() => navigate('/register')}
               >
-                👉 Rejoindre la mission
+                <LogoArrow className="mr-2" size={20} />
+                Rejoindre la mission
               </Button>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import LogoArrow from '@/components/LogoArrow';
 import { Check, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -63,10 +64,10 @@ const Offers = () => {
       <section className="py-20 bg-gradient-to-br from-rezo-purple via-rezo-purple-light to-rezo-purple-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            📦 Nos packs pour entrepreneurs engagés
+            Nos packs pour entrepreneurs engagés
           </h1>
           <p className="text-xl">
-            💼 Choisis l'accompagnement qui correspond à tes ambitions
+            Choisis l'accompagnement qui correspond à tes ambitions
           </p>
         </div>
       </section>
@@ -114,14 +115,15 @@ const Offers = () => {
                   ))}
                   
                   <Button 
-                    className={`w-full mt-6 ${plan.popular 
+                    className={`w-full mt-6 flex items-center justify-center ${plan.popular 
                       ? 'bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple' 
                       : 'border-rezo-purple text-rezo-purple hover:bg-rezo-purple hover:text-white'
                     }`}
                     variant={plan.popular ? 'default' : 'outline'}
                     onClick={() => navigate('/register')}
                   >
-                    👉 Je choisis cette offre
+                    <LogoArrow className="mr-2" size={16} />
+                    Je choisis cette offre
                   </Button>
                 </CardContent>
               </Card>

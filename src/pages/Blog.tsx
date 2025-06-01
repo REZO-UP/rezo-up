@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import LogoArrow from '@/components/LogoArrow';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
 const Blog = () => {
@@ -66,7 +67,7 @@ const Blog = () => {
       <section className="py-20 bg-gradient-to-br from-rezo-purple via-rezo-purple-light to-rezo-purple-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            📝 REZO UP TALK
+            REZO UP TALK
           </h1>
           <p className="text-xl">
             Le blog qui donne la parole aux entrepreneurs marocains
@@ -139,7 +140,7 @@ const Blog = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light rounded-2xl p-8 md:p-12 text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              📬 Reste informé(e)
+              Reste informé(e)
             </h2>
             <p className="text-xl mb-8">
               Reçois nos derniers articles et conseils directement dans ta boîte mail
@@ -151,8 +152,9 @@ const Blog = () => {
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900"
               />
               <Button 
-                className="bg-white text-rezo-purple hover:bg-gray-100 px-6"
+                className="bg-white text-rezo-purple hover:bg-gray-100 px-6 flex items-center"
               >
+                <LogoArrow className="mr-2" size={16} />
                 S'abonner
               </Button>
             </div>
