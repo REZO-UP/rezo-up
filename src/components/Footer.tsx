@@ -12,7 +12,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/fac8d5bc-7a8a-4697-9bf8-df3547f57773.png" 
               alt="REZO UP Logo" 
-              className="h-12 w-auto mb-4"
+              className="h-20 w-auto mb-4"
             />
             <p className="text-gray-200 mb-4">
               L'écosystème 100% marocain pour entrepreneurs et indépendants. 

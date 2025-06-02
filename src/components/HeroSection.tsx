@@ -2,11 +2,9 @@
 import { Button } from '@/components/ui/button';
 import { ArrowUp } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
 
 const HeroSection = () => {
   const navigate = useNavigate();
-  const [showMore, setShowMore] = useState(false);
 
   return (
     <>
@@ -44,41 +42,22 @@ const HeroSection = () => {
               </span>
             </h1>
 
-            {/* En savoir plus interaction */}
+            {/* Description text - always visible */}
             <div className="mb-8">
-              <div 
-                className="inline-block bg-white bg-opacity-20 rounded-lg p-4 cursor-pointer transition-all duration-300 hover:bg-opacity-30"
-                onMouseEnter={() => setShowMore(true)}
-                onMouseLeave={() => setShowMore(false)}
-              >
-                <span className="text-lg font-medium">En savoir plus</span>
-                {showMore && (
-                  <div className="mt-4 text-gray-200 animate-fade-in">
-                    <p className="text-xl leading-relaxed max-w-4xl">
-                      L'écosystème 100% marocain pour entrepreneurs et indépendants : 
-                      accompagnement, formation, CRM, studio, coworking, club privé et bien plus encore.
-                    </p>
-                  </div>
-                )}
-              </div>
+              <p className="text-xl leading-relaxed max-w-4xl mx-auto text-gray-200">
+                L'écosystème 100% marocain pour entrepreneurs et indépendants : 
+                accompagnement, formation, CRM, studio, coworking, club privé et bien plus encore.
+              </p>
             </div>
 
-            {/* CTA Button */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            {/* CTA Button - Only one button now */}
+            <div className="flex justify-center mb-16">
               <Button 
                 size="lg" 
                 className="bg-white text-rezo-purple hover:bg-gray-100 text-lg px-8 py-4 h-auto font-semibold shadow-lg transform hover:scale-105 transition-all"
                 onClick={() => navigate('/register')}
               >
                 Rejoindre la communauté
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-white text-white hover:bg-white hover:text-rezo-purple text-lg px-8 py-4 h-auto"
-                onClick={() => navigate('/about')}
-              >
-                En savoir plus
               </Button>
             </div>
 
