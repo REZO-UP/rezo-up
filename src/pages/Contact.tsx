@@ -47,7 +47,7 @@ const Contact = () => {
       <section className="py-20 bg-gradient-to-br from-rezo-purple via-rezo-purple-light to-rezo-purple-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Contacte-nous
+            Contactez-nous
           </h1>
           <p className="text-xl">
             Tu veux en savoir plus ou nous poser une question ?
