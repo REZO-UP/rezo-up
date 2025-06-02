@@ -31,9 +31,12 @@ const Methode = () => {
             
             {/* REZO UP CONSEIL */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light text-white p-6 text-center">
-                <h2 className="text-2xl font-bold mb-2">REZO UP CONSEIL</h2>
-                <p className="text-sm opacity-90">Accompagnement personnalisé</p>
+              <div className="bg-white p-6 text-center border-b">
+                <img 
+                  src="/lovable-uploads/879067cb-7df0-4800-b92f-64a58b6c4062.png" 
+                  alt="REZO UP CONSEIL" 
+                  className="h-16 w-auto mx-auto"
+                />
               </div>
               
               <div className="p-6">
@@ -102,15 +105,18 @@ const Methode = () => {
 
             {/* REZO UP STUDIO */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light text-white p-6 text-center">
-                <h2 className="text-2xl font-bold mb-2">REZO UP STUDIO</h2>
-                <p className="text-sm opacity-90">Création d'image et communication</p>
+              <div className="bg-white p-6 text-center border-b">
+                <img 
+                  src="/lovable-uploads/41c7dfe0-56a2-4c93-b2d5-078b858ba06a.png" 
+                  alt="REZO UP STUDIO" 
+                  className="h-16 w-auto mx-auto"
+                />
               </div>
               
               <div className="p-6">
                 <div className="mb-6">
                   <div className="flex items-center mb-3">
-                    <Palette className="h-6 w-6 text-rezo-purple mr-2" />
+                    <Palette className="h-6 w-6 text-blue-600 mr-2" />
                     <h3 className="text-lg font-bold text-gray-900">Objectif</h3>
                   </div>
                   <p className="text-gray-700 text-sm">
@@ -120,34 +126,34 @@ const Methode = () => {
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-gray-900 flex items-center">
-                    <Camera className="h-5 w-5 text-rezo-purple mr-2" />
+                    <Camera className="h-5 w-5 text-blue-600 mr-2" />
                     Services
                   </h4>
                   
                   <div className="space-y-3 text-sm">
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Création d'identité de marque :</span> Logo, charte graphique, design personnalisé pour les supports de communication.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Storytelling & message de marque :</span> Élaboration d'un message impactant, adapté à l'histoire de la marque.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Contenus visuels et éditoriaux :</span> Création de contenu pour les sites web, réseaux sociaux, et autres supports.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Personal Branding :</span> Accompagnement sur la visibilité personnelle du dirigeant (blog, réseaux sociaux, interventions publiques).
                       </div>
@@ -156,7 +162,7 @@ const Methode = () => {
                 </div>
 
                 <Button 
-                  className="w-full mt-6 bg-rezo-purple hover:bg-rezo-purple-dark"
+                  className="w-full mt-6 bg-blue-600 hover:bg-blue-700"
                   onClick={() => navigate('/contact')}
                 >
                   En savoir plus
@@ -166,15 +172,18 @@ const Methode = () => {
 
             {/* REZO UP CLUB & ACADÉMIE */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-rezo-purple to-rezo-purple-light text-white p-6 text-center">
-                <h2 className="text-2xl font-bold mb-2">REZO UP CLUB & ACADÉMIE</h2>
-                <p className="text-sm opacity-90">Réseautage et développement</p>
+              <div className="bg-white p-6 text-center border-b">
+                <img 
+                  src="/lovable-uploads/5d3410ba-b323-4816-ab80-67d14d371d53.png" 
+                  alt="REZO UP CLUB" 
+                  className="h-16 w-auto mx-auto"
+                />
               </div>
               
               <div className="p-6">
                 <div className="mb-6">
                   <div className="flex items-center mb-3">
-                    <Users className="h-6 w-6 text-rezo-purple mr-2" />
+                    <Users className="h-6 w-6 text-yellow-600 mr-2" />
                     <h3 className="text-lg font-bold text-gray-900">Objectif</h3>
                   </div>
                   <p className="text-gray-700 text-sm">
@@ -184,41 +193,41 @@ const Methode = () => {
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-gray-900 flex items-center">
-                    <UserCheck className="h-5 w-5 text-rezo-purple mr-2" />
+                    <UserCheck className="h-5 w-5 text-yellow-600 mr-2" />
                     Services
                   </h4>
                   
                   <div className="space-y-3 text-sm">
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Accès à la communauté (4000+ membres) :</span> Rejoindre un réseau de plus de 4000 entrepreneurs.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Masterclass hebdomadaire :</span> Sessions de formation sur des thématiques clés (marketing digital, vente, gestion d'entreprise, etc.).
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Rencontres thématiques :</span> Événements en ligne ou en présentiel pour échanger avec d'autres entrepreneurs.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Mise en relation :</span> Identification et mise en relation avec des experts, investisseurs ou partenaires commerciaux.
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <CheckCircle className="h-4 w-4 text-rezo-purple mr-2 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                       <div>
                         <span className="font-medium">Ateliers et cercles d'entraide :</span> Sessions de coaching collectif et échanges avec d'autres dirigeants d'entreprises.
                       </div>
@@ -227,7 +236,7 @@ const Methode = () => {
                 </div>
 
                 <Button 
-                  className="w-full mt-6 bg-rezo-purple hover:bg-rezo-purple-dark"
+                  className="w-full mt-6 bg-yellow-600 hover:bg-yellow-700"
                   onClick={() => navigate('/contact')}
                 >
                   En savoir plus

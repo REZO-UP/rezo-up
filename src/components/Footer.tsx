@@ -10,9 +10,9 @@ const Footer = () => {
           {/* Logo et description */}
           <div className="md:col-span-2">
             <img 
-              src="/lovable-uploads/961753f0-314c-40a9-be6d-3e51c037ca3b.png" 
+              src="/lovable-uploads/fac8d5bc-7a8a-4697-9bf8-df3547f57773.png" 
               alt="REZO UP Logo" 
-              className="h-12 w-auto mb-4 filter brightness-0 invert"
+              className="h-12 w-auto mb-4"
             />
             <p className="text-gray-200 mb-4">
               L'écosystème 100% marocain pour entrepreneurs et indépendants. 
@@ -42,6 +42,11 @@ const Footer = () => {
               <li>
                 <Link to="/offers" className="text-gray-200 hover:text-white transition-colors">
                   Nos offres
+                </Link>
+              </li>
+              <li>
+                <Link to="/methode" className="text-gray-200 hover:text-white transition-colors">
+                  La méthode
                 </Link>
               </li>
               <li>
