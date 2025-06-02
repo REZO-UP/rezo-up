@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -174,8 +173,8 @@ const Methode = () => {
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="bg-white p-6 text-center border-b">
                 <img 
-                  src="/lovable-uploads/7246cab2-137c-439e-bba6-314e43921657.png" 
-                  alt="REZO UP CLUB" 
+                  src="/lovable-uploads/d4e082f5-edaa-4062-8a5c-8c272186bf88.png" 
+                  alt="REZO UP CLUB & ACADÉMIE" 
                   className="h-16 w-auto mx-auto"
                 />
               </div>

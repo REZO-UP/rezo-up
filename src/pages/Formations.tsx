@@ -6,7 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
-import LogoArrow from '@/components/LogoArrow';
 import { BookOpen, Clock, Play, Download } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -77,19 +76,17 @@ const Formations = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-white text-rezo-purple hover:bg-gray-100 text-lg px-8 py-4 h-auto flex items-center"
+              className="bg-white text-rezo-purple hover:bg-gray-100 text-lg px-8 py-4 h-auto font-medium"
               onClick={() => navigate('/register')}
             >
-              <LogoArrow className="mr-2" size={20} />
               Commencer gratuitement
             </Button>
             <Button 
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-rezo-purple text-lg px-8 py-4 h-auto flex items-center"
+              className="border-white text-white hover:bg-white hover:text-rezo-purple text-lg px-8 py-4 h-auto font-medium"
               onClick={() => navigate('/offers')}
             >
-              <LogoArrow className="mr-2" size={20} />
               Voir toutes les formations
             </Button>
           </div>
@@ -189,9 +186,8 @@ const Formations = () => {
             
             <Button 
               size="lg"
-              className="w-full bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple flex items-center justify-center"
+              className="w-full bg-gradient-to-r from-rezo-purple to-rezo-purple-light hover:from-rezo-purple-dark hover:to-rezo-purple font-medium"
             >
-              <LogoArrow className="mr-2" size={20} />
               Envoyer la formation
             </Button>
           </div>
