@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Offers from "./pages/Offers";
 import Formations from "./pages/Formations";
 import Blog from "./pages/Blog";
+import BlogArticle from "./pages/BlogArticle";
 import Contact from "./pages/Contact";
 import Diaspora from "./pages/Diaspora";
 import Login from "./pages/Login";

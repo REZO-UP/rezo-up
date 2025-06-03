@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -6,8 +5,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import LogoArrow from '@/components/LogoArrow';
 import { Calendar, User, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Blog = () => {
+  const navigate = useNavigate();
   const articles = [
     {
       title: "Comment pitcher son business en 3 minutes",
@@ -112,6 +113,11 @@ const Blog = () => {
                       variant="ghost" 
                       size="sm"
                       className="text-rezo-purple hover:text-rezo-purple-dark"
+                      onClick={() => {
+                        if (index === 0) {
+                          navigate('/blog/comment-pitcher-son-business');
+                        }
+                      }}
                     >
                       Lire plus
                       <ArrowRight className="h-4 w-4 ml-1" />
