@@ -53,6 +53,9 @@ const Header = ({ isAuthenticated = false, onLogin, onLogout }: HeaderProps) => 
             <Link to="/formations" className="text-gray-700 hover:text-rezo-purple transition-colors">
               Formations
             </Link>
+            <Link to="/diaspora" className="text-gray-700 hover:text-rezo-purple transition-colors">
+              Diaspora
+            </Link>
             <Link to="/blog" className="text-gray-700 hover:text-rezo-purple transition-colors">
               Blog
             </Link>
@@ -146,6 +149,13 @@ const Header = ({ isAuthenticated = false, onLogin, onLogout }: HeaderProps) => 
                 onClick={() => setIsMenuOpen(false)}
               >
                 Formations
+              </Link>
+              <Link 
+                to="/diaspora" 
+                className="block px-3 py-2 text-gray-700 hover:text-rezo-purple"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Diaspora
               </Link>
               <Link 
                 to="/blog" 
