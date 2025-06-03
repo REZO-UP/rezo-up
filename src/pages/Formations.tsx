@@ -76,7 +76,7 @@ const Formations = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-white text-rezo-purple hover:bg-gray-100 text-lg px-8 py-4 h-auto font-medium"
+              className="bg-white text-rezo-purple hover:bg-gray-100 text-lg px-8 py-4 h-auto font-medium border-0"
               onClick={() => navigate('/register')}
             >
               Commencer gratuitement
@@ -84,7 +84,7 @@ const Formations = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-rezo-purple text-lg px-8 py-4 h-auto font-medium"
+              className="border-2 border-white text-white hover:bg-white hover:text-rezo-purple text-lg px-8 py-4 h-auto font-medium bg-transparent"
               onClick={() => navigate('/offers')}
             >
               Voir toutes les formations

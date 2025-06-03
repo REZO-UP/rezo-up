@@ -55,6 +55,62 @@ const Contact = () => {
         </div>
       </section>
 
+      {/* White Banner Section */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <img 
+            src="/lovable-uploads/961753f0-314c-40a9-be6d-3e51c037ca3b.png" 
+            alt="REZO UP Logo" 
+            className="h-20 w-auto mx-auto"
+          />
+        </div>
+      </section>
+
+      {/* REZO DIASPORA Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-red-600 mb-6">🌍 REZO DIASPORA</h2>
+          <p className="text-xl text-center max-w-4xl mx-auto mb-10 text-gray-700 leading-relaxed">
+            Tu vis en France, au Canada, en Belgique ou ailleurs ? Tu veux <strong>te reconnecter à ton pays</strong> à travers un projet entrepreneurial ?
+            <br /><br />
+            <strong>REZO DIASPORA</strong> est le rendez-vous mensuel des Marocains du monde pour entreprendre, investir et se connecter avec l'écosystème business local.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="shadow-lg">
+              <CardHeader>
+                <CardTitle className="text-xl">🎙️ Prochain Live</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <p><strong>Titre :</strong> Entreprendre au Maroc depuis l'étranger</p>
+                <p><strong>Date :</strong> 15 juin 2025 - 20h (France) / 19h (Maroc)</p>
+                <p><strong>Invité :</strong> Youssef El Amrani (entrepreneur tech, France/Maroc)</p>
+                <Button className="bg-red-600 hover:bg-red-700 text-white">
+                  ✅ Je m'inscris
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg">
+              <CardHeader>
+                <CardTitle className="text-xl">🔎 Au programme</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 mb-4 text-gray-700">
+                  <li>• Témoignages de MRE qui ont osé</li>
+                  <li>• Infos pratiques pour entreprendre au Maroc</li>
+                  <li>• Mise en relation avec des partenaires locaux</li>
+                  <li>• Accès à la communauté REZO UP</li>
+                </ul>
+                <Button variant="outline" className="border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white">
+                  🌐 Découvrir l'espace MRE
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
