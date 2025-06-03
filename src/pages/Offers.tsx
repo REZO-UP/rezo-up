@@ -16,8 +16,8 @@ const Offers = () => {
       price: "149",
       description: "Pour commencer ton aventure entrepreneuriale",
       features: [
-        { name: "Accès CRM REZO UP", included: "Version basique" },
         { name: "Espace membre", included: true },
+        { name: "Accès CRM REZO UP", included: "Version basique" },
         { name: "Formations en ligne", included: false },
         { name: "Lives & ateliers", included: false },
         { name: "Coaching individuel", included: false },
@@ -30,8 +30,8 @@ const Offers = () => {
       price: "249",
       description: "Pour développer ton business efficacement",
       features: [
-        { name: "Accès CRM REZO UP", included: "Version avancée" },
         { name: "Espace membre", included: true },
+        { name: "Accès CRM REZO UP", included: "Version avancée" },
         { name: "Formations en ligne", included: true },
         { name: "Lives & ateliers", included: true },
         { name: "Coaching individuel", included: false },
@@ -44,8 +44,8 @@ const Offers = () => {
       price: "449",
       description: "L'accompagnement premium complet",
       features: [
-        { name: "Accès CRM REZO UP", included: "Version Pro" },
         { name: "Espace membre", included: true },
+        { name: "Accès CRM REZO UP", included: "Version Pro" },
         { name: "Formations en ligne", included: "avec replays" },
         { name: "Lives & ateliers", included: true },
         { name: "Coaching individuel", included: "1 séance" },
