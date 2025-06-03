@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -31,7 +30,7 @@ const Offers = () => {
       price: "249",
       description: "Pour développer ton business efficacement",
       features: [
-        { name: "Accès CRM REZO UP", included: true },
+        { name: "Accès CRM REZO UP", included: "Version avancée" },
         { name: "Espace membre", included: true },
         { name: "Formations en ligne", included: true },
         { name: "Lives & ateliers", included: true },
@@ -45,11 +44,11 @@ const Offers = () => {
       price: "449",
       description: "L'accompagnement premium complet",
       features: [
-        { name: "Accès CRM REZO UP", included: true },
+        { name: "Accès CRM REZO UP", included: "Version Pro" },
         { name: "Espace membre", included: true },
         { name: "Formations en ligne", included: "avec replays" },
         { name: "Lives & ateliers", included: true },
-        { name: "Coaching individuel", included: "1 séance/mois" },
+        { name: "Coaching individuel", included: "1 séance" },
         { name: "Accès au studio", included: "1 session/mois" }
       ],
       popular: false
