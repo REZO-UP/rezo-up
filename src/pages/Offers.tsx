@@ -1,3 +1,4 @@
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -13,7 +14,6 @@ const Offers = () => {
   const plans = [
     {
       name: "Starter",
-      price: "149",
       description: "Pour commencer ton aventure entrepreneuriale",
       features: [
         { name: "Espace membre", included: true },
@@ -27,7 +27,6 @@ const Offers = () => {
     },
     {
       name: "Pro",
-      price: "249",
       description: "Pour développer ton business efficacement",
       features: [
         { name: "Espace membre", included: true },
@@ -41,7 +40,6 @@ const Offers = () => {
     },
     {
       name: "VIP",
-      price: "449",
       description: "L'accompagnement premium complet",
       features: [
         { name: "Espace membre", included: true },
@@ -89,10 +87,6 @@ const Offers = () => {
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl font-bold">{plan.name}</CardTitle>
                   <CardDescription className="mb-4">{plan.description}</CardDescription>
-                  <div className="text-center">
-                    <span className="text-4xl font-bold text-rezo-purple">{plan.price}</span>
-                    <span className="text-gray-600"> dh/mois</span>
-                  </div>
                 </CardHeader>
                 
                 <CardContent className="space-y-4">
